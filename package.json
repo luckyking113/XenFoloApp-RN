@@ -5,11 +5,13 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
+    "jetify": "npx jetify",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-elements": "^1.2.0",
     "react-native-gesture-handler": "^1.4.1",
     "react-native-nav-tabbar": "^0.0.2",
     "react-native-tab-navigator": "^0.3.4",
@@ -23,6 +25,7 @@
     "babel-jest": "^24.9.0",
     "eslint": "^6.4.0",
     "jest": "^24.9.0",
+    "jetifier": "^1.6.4",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.8.6"
   },

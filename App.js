@@ -41,7 +41,7 @@ class LoginScreen extends Component {
         <StatusBar backgroundColor="#2196F3" barStyle="light-content" />
         <Button
           title="Login"
-          style={{width: 100}}
+          style={{width: 200, height:50}}
           onPress={() => this.props.navigation.navigate('Dashboard')}
         />
         <Button
