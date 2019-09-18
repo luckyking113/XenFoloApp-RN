@@ -54,17 +54,6 @@ class LoginScreen extends Component {
   }
 }
 
-class Timeline extends Component {
-  render() {
-    return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <StatusBar backgroundColor="#2196F3" barStyle="light-content" />
-        <Text>Timeline</Text>
-      </View>
-    );
-  }
-}
-
 const SubForumTabNavigator = createBottomTabNavigator(
   {
     All: {
